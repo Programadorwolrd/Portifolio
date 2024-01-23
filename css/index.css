@@ -255,7 +255,7 @@ body {
 .box-habilidades-inf {
     width: 40%;
     height: 500px;
-    background-color: greenyellow;
+    background-color:#0c0c14;
     flex-wrap: nowrap;
 
 }

@@ -1,0 +1,11 @@
+ideias 
+
+
+- Adicionar comentarios de professores colegas e chefes
+- Trocar a barrinha lateral de srcoll
+-adicionar um transition pelo site
+-melhorar o sobre mim
+-adicionar os sites hospedados dos projetos
+-fazer uma pagina com meu setup e livros que eu indico 
+-melhorar resposividade
+- fazer a opção de trocar de linguagem
