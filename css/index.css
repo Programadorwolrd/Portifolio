@@ -61,7 +61,7 @@ body {
 .header-logo img {
     display: block;
     height: calc(var(--header-inner-height) - 30px);
-    margin-left:46%;
+    margin-left: 46%;
 }
 
 .header-navigation {
@@ -78,7 +78,7 @@ body {
     color: white;
 }
 
-.certificados{
+.certificados {
     margin-right: 150px;
 }
 
@@ -113,7 +113,7 @@ body {
     position: absolute;
     bottom: -2px;
     left: 0;
-    
+
 }
 
 
@@ -129,10 +129,7 @@ body {
 }
 
 
-
-.apresentacao {
-    width: 100%;
-}
+/*Aqui começa as habilidades */
 
 
 .organizadora {
@@ -141,6 +138,7 @@ body {
     position: absolute;
     margin-top: 10%;
     margin-left: 6%;
+
 }
 
 
@@ -219,6 +217,15 @@ body {
     margin-top: -42%;
 }
 
+.apresetacao {
+    width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .titulo-apresentar {
     text-overflow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     color: white;
@@ -231,39 +238,103 @@ body {
     color: white;
 }
 
-.apresetacao {
-    width: 60%;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 
 .habilidades {
-    margin-top: 18%;
+    margin-top: 22%;
     width: 100%;
-    height: 400px;
-    background-color: #0F0F17;
-}
+    height: 500px;
+    background-color: #0505ff;
+    display: flex;
+    justify-content: space-between;
 
-.icone-habilidades{
-    display: grid;
-    width:130px;
-    height:8px;
-    background-color: rgba(0, 0, 0, 0.692)
 }
 
 
+.box-habilidades-inf {
+    width: 40%;
+    height: 500px;
+    background-color: greenyellow;
+    flex-wrap: nowrap;
 
-.h2projeto{
-  color: white;  
-  text-align: center;
-  margin: 10px;
 }
 
-.projeto{
-background-color: red;  
+.titulo-habilidade {
+    background-color: rgb(192, 2, 2);
+
+}
+
+
+.box-habilidades-icon {
+    width: 40%;
+    height: 500px;
+    background-color: chocolate;
+}
+
+
+.box-inf {
+    width:80px ;
+    height:2.5px ;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* Flex Container */
+.container {
+	max-width: 360px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+/* Flex Item */
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+.h2projeto {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.projeto {
+    background-color: red;
 }
 
 
@@ -314,6 +385,7 @@ background-color: red;
     /* Aqui as sombras dos slider  */
     background: linear-gradient(to right, #9b010132 0%, transparent 100%);
 }
+
 /* APENAS MEXER NA TRANSPARENCIA AQUI */
 .marquee:after {
     right: 0;
@@ -372,74 +444,75 @@ background-color: red;
 }
 
 /* icones formatação */
-.treina{
+.treina {
     width: 60%;
     height: 80%;
 }
 
-.fundac{
+.fundac {
     width: 60%;
     height: 100%;
 }
 
 
 
-.ux{
+.ux {
     width: 50%;
     height: 100%;
 
 }
 
 
-.ifsp{
+.ifsp {
     width: 30%;
     height: 80%;
 
 }
-.senac{
+
+.senac {
     width: 60%;
-    height:88%;
+    height: 88%;
 }
 
-.harvard{
+.harvard {
     width: 100%;
     height: 60%;
     margin-left: 40px;
     margin-right: 10px;
 }
 
-.dio{
+.dio {
     width: 80%;
     height: 60%;
 }
 
-.roket{
+.roket {
     width: 100%;
     height: 40%;
 }
 
-.kenzie{
+.kenzie {
     width: 80%;
     height: 110%;
 }
 
-.udemy{
+.udemy {
     width: 70%;
     height: 60%;
 }
 
-.uninter{
+.uninter {
     width: 80%;
     height: 90%;
 }
 
-.usp{
+.usp {
     margin-top: 10px;
-    width:96%;
+    width: 96%;
     height: 76%;
 }
 
-.dio2{
+.dio2 {
     width: 70%;
     height: 67%;
 
@@ -454,7 +527,7 @@ background-color: red;
 
     .organizadora {
         width: 400px;
-        height:270px;
+        height: 270px;
         position: absolute;
         margin-top: 25%;
         margin-left: 17%;
@@ -500,29 +573,31 @@ background-color: red;
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
+
     .filme {
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         font-size: 210%;
     }
 
-   
+
 }
 
 
 /* projetos css */
 
-  
-  .content-wrapper {
+
+.content-wrapper {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1100px;
+    /* lembrar de usar acima para organizar o grid dos projetos quando adicionar mais */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     padding: 0.5rem;
-  }
-  
-  .news-card {
+}
+
+.news-card {
     border: 0px solid aqua;
     margin: 0.5rem;
     position: relative;
@@ -536,142 +611,150 @@ background-color: red;
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
-  }
-  
-  @media (min-width: 900px) {
-  
-  .news-card {
-      height: 12em
-  }
+}
+
+@media (min-width: 900px) {
+
+    .news-card {
+        height: 12em
     }
-  
-  .news-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.469) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.846) 80%);;
-        z-index: 0;
-      }
-  
-  .news-card__card-link {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-  /*     background: rgba(255,0,0,.5); */
-    }
-  
-  .news-card__image {
-      width: 100%;
-      height: 100%;
-      display: block;
-      object-fit: cover;
-      transition: transform 3s ease;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      position: relative;
-      z-index: -1;
-    }
-  
-  .news-card__text-wrapper {
-      position: absolute;
-      bottom: 0rem;
-      padding: 1rem;
-      color: white;
-  /*     background-color: rgba(0, 0, 0, 0.4); */
-      transition: background-color 1.5s ease;
-    }
-  
-  .news-card__title {
-      transition: color 1s ease;
-      margin-bottom: .5rem;
-    }
-  
-  .news-card__post-date {
-      font-size: 1.4rem;
-      margin-bottom: .5rem;
-      margin-right: 1rem;
-      color: #CCC;
-    }
-  
-  .news-card__details-wrapper {
-      max-height: 0;
-      opacity: 0;
-      transition: max-height 1.5s ease, opacity 1s ease;
-    }
-  
-  @media (min-width: 900px) {
-      .news-card:hover .news-card__details-wrapper {
+}
+
+.news-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.469) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.846) 80%);
+    ;
+    z-index: 0;
+}
+
+.news-card__card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*     background: rgba(255,0,0,.5); */
+}
+
+.news-card__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 3s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.news-card__text-wrapper {
+    position: absolute;
+    bottom: 0rem;
+    padding: 1rem;
+    color: white;
+    /*     background-color: rgba(0, 0, 0, 0.4); */
+    transition: background-color 1.5s ease;
+}
+
+.news-card__title {
+    transition: color 1s ease;
+    margin-bottom: .5rem;
+}
+
+.news-card__post-date {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    margin-right: 1rem;
+    color: #CCC;
+}
+
+.news-card__details-wrapper {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1.5s ease, opacity 1s ease;
+}
+
+@media (min-width: 900px) {
+    .news-card:hover .news-card__details-wrapper {
         max-height: 20rem;
         opacity: 1;
-      }
-      .news-card:hover .news-card__text-wrapper {
-        background-color: rgba(0, 0, 0, 0.6);
-      }
-      .news-card:hover .news-card__title {
-        color: yellow;
-      }
-      .news-card:hover .news-card__image {
+    }
+
+    .news-card:hover .news-card__text-wrapper {
+        background-color: rgba(0, 0, 0, 0.751);
+    }
+
+    .news-card:hover .news-card__title {
+        color: #4D15BE;
+    }
+
+
+    .news-card:hover .news-card__image {
         transform: scale(1.2);
         z-index: -1;
-      }
     }
-  
-  .news-card__excerpt {
-      font-weight: 300;
-    }
-  
-  .news-card__read-more {
-      background: black;
-      color: #bbb;
-      display: block;
-      padding: 0.4rem 0.6rem;
-      border-radius: 0.3rem;
-      margin-top: 1rem;
-      border: 1px solid #444;
-      font-size: 0.8rem;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      text-decoration: none;
-      width: 7rem;
-      margin-left: auto;
-      position: relative;
-      z-index: 5;
-    }
-  
-  .news-card__read-more i {
-        position: relative;
-        left: 0.2rem;
-        color: #888;
-        transition: left 0.5s ease, color 0.6s ease;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-  
-  .news-card__read-more:hover i {
-        left: 0.5rem;
-        color: yellow;
-      }
+}
 
+.news-card__excerpt {
+    font-weight: 300;
+}
 
-      
-i{
-    color:#690505;
-    
+.news-card__read-more {
+    background: black;
+    color: #bbb;
+    display: block;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    border: 1px solid #444;
+    font-size: 0.8rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-decoration: none;
+    width: 7rem;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.news-card__read-more i {
+    position: relative;
+    left: 0.2rem;
+    color: #888;
+    transition: left 0.5s ease, color 0.6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.news-card__read-more:hover i {
+    left: 0.5rem;
+    color: yellow;
+}
+
+i {
+    color: #c7c7c7;
+
+}
+
+.buttonplay i {
+    color: black;
 }
 
 
 
-footer{
+
+footer {
     background-color: rgba(0, 0, 0, 0.662);
     color: rgba(255, 255, 255, 0.826);
-    width:100% ;
-    height: 50px;top: ;
+    width: 100%;
+    height: 206px;
     text-align: center;
 }
 
@@ -682,12 +765,6 @@ footer{
 
 
 /* AQUI CSS DA PAGINA DE CERTIFICADOS */
-
-
-
-.tituloh2{
-color: white;
-
+.tituloh2 {
+    color: white;
 }
-
-
