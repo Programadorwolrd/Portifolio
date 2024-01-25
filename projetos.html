@@ -27,10 +27,10 @@
 			<div class="bricks">
 				<!-- aqui sera feito os bricks (tijolinhos do que eu sei fazer ) -->
 				<div class="skill-bricks">
-					<p class="skill-bricks-p">HTML4</p>
+					<p class="skill-bricks-p">HTML5</p>
 				</div>
 				<div class="skill-bricks">
-					<p class="skill-bricks-p">HTML4</p>
+					<p class="skill-bricks-p">CSS3</p>
 				</div>
 				<div class="skill-bricks">
 					<p class="skill-bricks-p">HTML4</p>
@@ -87,13 +87,13 @@
 
 
 	<style>
-		@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+		@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 		/* aqui começa a lateral esquerda */
 		.box-habilidades-inf {
 			width: 45%;
 			height: 500px;
-			background-color: #121212;
+			background-color: #0D0D0D;
 
 		}
 
@@ -101,7 +101,7 @@
 			margin-top: 22%;
 			width: 100%;
 			height: 500px;
-			background-color: #1d1d1d;
+			background-color: #0D0D0D;
 			display: flex;
 			justify-content: space-between;
 		}
@@ -111,24 +111,36 @@
 
 		.titulo-habilidade,
 		.texto-habilidade {
-			background-color: #1c1c1b;
+			background-color: #0D0D0D;
 			margin: 0px;
 			color: white;
 		}
 
+		.titulo-habilidade {
+			/* estilização */
+			font-size: 40px;
+			font-family: 'Rubik', sans-serif;
+			/* ordenação */
+			padding-top: 120px;
+			padding-bottom: 0px;
+			margin-left: 80px;
+			text-align: left;
+		}
 
 		.texto-habilidade {
+			/* estilização */
+			font-size: 17px;
+			font-family: 'Rubik', sans-serif;
+			/* ordenação */
+			margin-left: 73px;
 			padding: 10px;
+			padding-bottom: 14px;
 		}
 
-		.titulo-habilidade {
-			padding-top: 120px;
-			font-size: 28px;
-			padding-bottom: 20px;
-		}
 
 
 		.bricks {
+			margin-left: 85px;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -146,10 +158,11 @@
 		}
 
 		.skill-bricks-p {
+			margin:10px;
 			color: #ffffff;
 			cursor: default;
-			font-family: Rubik;
-			font-size: 14px;
+			font-family: 'Rubik', sans-serif;
+			font-size: 11px;
 			font-weight: 300;
 		}
 
@@ -162,7 +175,7 @@
 		.box-habilidades-icon {
 			width: 45%;
 			height: 500px;
-			background-color: #1c1c1b;
+			background-color: #0D0D0D;
 		}
 
 

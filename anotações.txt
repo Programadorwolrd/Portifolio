@@ -9,7 +9,7 @@ ideias
 -fazer uma pagina com meu setup e livros que eu indico 
 -melhorar resposividade
 - fazer a opção de trocar de linguagem
-
+-adicionar um hover seja no meu nome no header ou sla onde com igual o do adeola colorido que eu fiz no smartbus
 
 
 -tecnologias
