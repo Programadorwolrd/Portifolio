@@ -19,7 +19,6 @@
 
 
 body {
-    font-family: "DM Sans", sans-serif;
     background-color: #13131F;
     line-height: 1.5;
     min-height: 300vh;
@@ -401,7 +400,7 @@ div.gallery ul li img {
 
 /* hover da galeria */
 div.gallery ul li img:hover {
-    border: 1px solid #ae00ff;
+    border: 1px solid #996cde;
 }
 
 p.attribution {
@@ -443,6 +442,8 @@ p.attribution {
     color: white;
     text-align: center;
     margin: 10px;
+    margin-top: 35px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .projeto {
@@ -456,15 +457,11 @@ p.attribution {
 /* codigo do banner */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
     --marquee-width: 100%;
     --marquee-height: 13vh;
+    font-family: 'Rubik', sans-serif;
     /* tempo e tamanho da div */
     --marquee-elements-displayed: 8;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
