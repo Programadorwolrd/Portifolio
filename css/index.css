@@ -269,7 +269,7 @@ body {
 .box-habilidades-icon {
     width: 40%;
     height: 500px;
-    background-color: chocolate;
+    background-color: rgb(100, 42, 1);
 }
 
 
@@ -279,7 +279,6 @@ body {
     background-color: red;
     border-radius: 20px;
 }
-
 
 
 

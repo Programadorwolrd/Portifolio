@@ -9,3 +9,9 @@ ideias
 -fazer uma pagina com meu setup e livros que eu indico 
 -melhorar resposividade
 - fazer a opção de trocar de linguagem
+
+
+
+-tecnologias
+
+Html,Css,Javascript,Python,C,Java,Prisma,SQL,Bootsrap,Node.js,React.js,JWT,Figma,Srum,Design...

@@ -2,13 +2,268 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
 
-  <!--  Thanks to frontendmentor.io for the challenge.  -->
-  
+
 <body>
- 
+
+
+
+	</div>
+
+
+
+	<!-- Hablidadades -->
+	<section class="habilidades">
+		<div class="box-habilidades-inf">
+			<h2 class="titulo-habilidade">Habilidades Principais</h2>
+			<p class="texto-habilidade">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptas
+				aspernatur quod dolorem quos animi totam praesentium nam! Dolor exercitationem blanditiis vel maxime
+				delectus porro esse non sapiente dicta aliquid?</p>
+			<div class="bricks">
+				<!-- aqui sera feito os bricks (tijolinhos do que eu sei fazer ) -->
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">Python</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">SQL</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+				<div class="skill-bricks">
+					<p class="skill-bricks-p">HTML4</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="box-habilidades-icon">
+			<div class="wrapper">
+				<div class="gallery">
+					<ul>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+						<li><img src="img/Html.png"></li>
+					</ul>
+				</div>
+
+			</div>
+	</section>
+
+
+
+
+
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+		/* aqui começa a lateral esquerda */
+		.box-habilidades-inf {
+			width: 45%;
+			height: 500px;
+			background-color: #121212;
+
+		}
+
+		.habilidades {
+			margin-top: 22%;
+			width: 100%;
+			height: 500px;
+			background-color: #1d1d1d;
+			display: flex;
+			justify-content: space-between;
+		}
+
+
+
+
+		.titulo-habilidade,
+		.texto-habilidade {
+			background-color: #1c1c1b;
+			margin: 0px;
+			color: white;
+		}
+
+
+		.texto-habilidade {
+			padding: 10px;
+		}
+
+		.titulo-habilidade {
+			padding-top: 120px;
+			font-size: 28px;
+			padding-bottom: 20px;
+		}
+
+
+		.bricks {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 8px;
+
+
+		}
+
+		.skill-bricks {
+			background: hsla(0, 0%, 34%, 0.648);
+			border-radius: 10px;
+			display: flex;
+			padding-top: -15px;
+			transition: all .5s;
+		}
+
+		.skill-bricks-p {
+			color: #ffffff;
+			cursor: default;
+			font-family: Rubik;
+			font-size: 14px;
+			font-weight: 300;
+		}
+
+		.skill-bricks:hover {
+			background: hsla(0, 0%, 34%, 0.648);
+			border: 1px solid rgb(242, 0, 0);
+		}
+
+
+		.box-habilidades-icon {
+			width: 45%;
+			height: 500px;
+			background-color: #1c1c1b;
+		}
+
+
+		.box-inf {
+			width: 80px;
+			height: 2.5px;
+			background-color: red;
+			border-radius: 20px;
+		}
+
+
+		.wrapper {
+			/* aqui altera tamanjo */
+			width: 100%;
+			margin: 70px auto;
+		}
+
+		div.gallery {
+			display: flex;
+			justify-content: center;
+			margin-top: 0;
+		}
+
+		div.gallery ul {
+			list-style-type: none;
+			margin-left: 43px;
+		}
+
+		/* animation */
+		/* div.gallery ul li,
+		div.gallery li img {
+			-webkit-transition: all 0.1s ease-in-out;
+			-moz-transition: all 0.1s ease-in-out;
+			-o-transition: all 0.1s ease-in-out;
+			transition: all 0.1s ease-in-out;
+		} */
+
+		div.gallery ul li {
+			position: relative;
+			float: left;
+			width: 112px;
+			height: 112px;
+			padding: 0px;
+			z-index: 0;
+		}
+
+		div.gallery ul li:hover {
+			z-index: 5;
+		}
+
+		/* altera o tamanho de cada box dos icones */
+		div.gallery ul li img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			border: 1px solid #535351;
+			border-radius: 10px;
+			width: 100px;
+			height: 100px;
+			background: #181818;
+
+		}
+
+		/* hover da galeria */
+		div.gallery ul li img:hover {
+			border: 1px solid #ae00ff;
+		}
+
+		p.attribution {
+			font-family: 'Consolas';
+			color: #000;
+			clear: both;
+			text-align: center;
+			line-height: 25px;
+			padding-top: 30px;
+		}
+
+
+		/* Responsive hack */
+		@media only screen and (min-width: 499px) and (max-width: 1212px) {
+			.wrapper {
+				width: 500px;
+			}
+		}
+
+		@media only screen and (max-width: 498px) {
+			.wrapper {
+				width: 300px;
+			}
+
+			div.gallery ul {
+				list-style-type: none;
+				margin: 0;
+			}
+		}
+	</style>
+
+
+
+
+
+</body>
+
+</html>
