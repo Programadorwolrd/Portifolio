@@ -202,14 +202,14 @@ body {
 
 .minha-foto {
     width: 300px;
-    height: 42px;
+    height: 400px;
     position: absolute;
     margin-left: 140%;
     margin-top: -42%;
 }
 
 .apresetacao {
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgb(255, 0, 0);
     width: 60%;
     height: 200px;
     position: absolute;
@@ -245,7 +245,7 @@ body {
 }
 
 .habilidades {
-    margin-top: 22%;
+    margin-top: 1%;
     width: 100%;
     height: 500px;
     background-color: #0D0D0D;
@@ -276,7 +276,7 @@ body {
 
 .texto-habilidade {
     /* estilização */
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Rubik', sans-serif;
     /* ordenação */
     margin-left: 73px;
@@ -934,7 +934,7 @@ footer {
 
     :root {
         --marquee-width: 100vw;
-        --marquee-height: 16vh;
+        --marquee-height: 15vh;
         --marquee-elements-displayed: 2.5;
     }
 
@@ -1132,11 +1132,11 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
 
     .habilidades {
-        margin-top: 50%;
+        margin-top: 7%;
         width: 100%;
         height: 420px;
         background-color: #0D0D0D;
@@ -1148,6 +1148,8 @@ footer {
         width: 90%;
         height: 400px;
         background-color: #0D0D0D;
+        margin-left: 20px;
+
 
     }
 
@@ -1241,5 +1243,176 @@ footer {
     .news-card:hover .news-card__image {
         transform: scale(1.2);
         z-index: -1;
+    }
+}
+
+
+.apresetacao2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 0, 0, 0);
+    width: 50%;
+    margin-top: 95px;
+    text-align: center;
+
+}
+
+
+
+@media (min-width: 700px) {
+
+    .apresetacao2 {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 0, 0, 0);
+        margin-top: 102px;
+        text-align: center;
+
+    }
+
+}
+
+
+.habilidades-button {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+.ale {
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    height: 400px;
+}
+
+
+.card {
+    border-radius: 20px;
+    width: 590px;
+    height: 290px;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 31%;
+    left: 50%;
+    padding: 12px 10px;
+    background: linear-gradient(120deg, #0D0D0D 30%, #1d1d1d 38%, #0D0D0D 40%, #0D0D0D 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+}
+
+.card_load {
+    width: 270px;
+    height: 268px;
+    float: left;
+    background-color: #4D15BE;
+    border-radius: 10%;
+
+}
+
+/* img foto minha */
+.img-eu {
+    width: 270px;
+    height: 268px;
+    border-radius: 10%;
+}
+
+.card_load_extreme_title2 {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    float: right;
+    padding-bottom: 9%;
+}
+
+.card_load_extreme_title2 h2 {
+    color: white;
+    font-weight: 600;
+}
+
+
+.card_load_extreme_title {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    float: right;
+}
+
+.card_load_extreme_title h4 {
+    color: white;
+    color: #9369e7;
+    font-weight: 600;
+}
+
+
+.card_load_extreme_descripion p {
+    color: white;
+    font-size: small;
+    font-weight: 100;
+}
+
+
+.card_load_extreme_descripion {
+    width: 250px;
+    height: 147px;
+    position: relative;
+    float: right;
+}
+
+.redes-sociais-apresentacao {
+    width: 230px;
+    height: 40px;
+    background-color: rgba(27, 27, 27, 0);
+    border-radius: 10px;
+    margin-left: 320px;
+    margin-top: 39%;
+}
+
+
+.redes-sociais-apresentacao-link{
+    border: 1px solid rgb(79, 0, 207);
+    width: 70px;
+    height: 27px;
+    display: grid;
+    display: inline-block;
+    place-items: center;
+    background-color: #4d15be00;
+    border-radius: 6px;
+ 
+}
+.redes-sociais-apresentacao-link:hover{
+    border: 1px solid rgb(79, 0, 207);
+    width: 70px;
+    height: 27px;
+    display: grid;
+    display: inline-block;
+    place-items: center;
+    background-color:#4D15BE;
+    border-radius: 6px;
+ 
+}
+
+
+.redes-sociais-apresentacao-link p,i {
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 3px;
+
+
+}
+
+@keyframes load89234 {
+    100% {
+        background-position: -100% 0;
     }
 }
