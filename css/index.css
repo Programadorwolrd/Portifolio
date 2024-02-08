@@ -19,7 +19,8 @@
 
 
 body {
-    background-color: #13131F;
+    background-color: #202020 ;     
+    /* #13131F; */
     line-height: 1.5;
     min-height: 200vh;
     position: relative;
@@ -1377,7 +1378,7 @@ footer {
 }
 
 
-.redes-sociais-apresentacao-link{
+.redes-sociais-apresentacao-link {
     border: 1px solid rgb(79, 0, 207);
     width: 70px;
     height: 27px;
@@ -1386,22 +1387,24 @@ footer {
     place-items: center;
     background-color: #4d15be00;
     border-radius: 6px;
- 
+
 }
-.redes-sociais-apresentacao-link:hover{
+
+.redes-sociais-apresentacao-link:hover {
     border: 1px solid rgb(79, 0, 207);
     width: 70px;
     height: 27px;
     display: grid;
     display: inline-block;
     place-items: center;
-    background-color:#4D15BE;
+    background-color: #4D15BE;
     border-radius: 6px;
- 
+
 }
 
 
-.redes-sociais-apresentacao-link p,i {
+.redes-sociais-apresentacao-link p,
+i {
     color: white;
     font-size: small;
     text-align: center;
@@ -1415,3 +1418,21 @@ footer {
         background-position: -100% 0;
     }
 }
+
+
+/* pagina de certificaods */
+
+.certificado {
+    color: white;
+}
+
+.area-titulo {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
