@@ -24,11 +24,190 @@
     </div>
 
 <section class="area-titulo">
-    <h1 class="certificado">Certificado</h1>
+    <h1 class="certificado">Certificados</h1>
 </section>
 
+<div class="cardContainer">
+    <div class="card-certificado">
+      <p class="city">CERTIFICADO</p>
+      <p class="weather">Node.js</p>
+      <svg
+        class="weather"
+        version="1.1"
+        id="Layer_1"
+        x="0px"
+        y="0px"
+        width="200px"
+        height="200px"
+        viewBox="0 0 100 100"
+        xml:space="preserve"
+      >
+        <image
+          id="image0"
+          width="100"
+          height="100"
+          x="0"
+          y="0"
+          href="teste.jpg"
+        ></image>
 
 
+
+      </svg>
+      <p class="temp">32°</p>
+      <div class="minmaxContainer">
+        <div class="min">
+          <p class="minHeading">Min</p>
+          <p class="minTemp">30°</p>
+        </div>
+        <div class="max">
+          <p class="maxHeading">Max</p>
+          <p class="maxTemp">32°</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- css do meu card -->
+<style>.cardContainer {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-certificado {
+    position: relative;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.308);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+  }
+  
+  .city {
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 1.2px;
+    color: white;
+  }
+  
+  .weather {
+    font-weight: 500;
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: rgb(197, 197, 197);
+  }
+  
+  .temp {
+    font-size: 1.8em;
+    color: white;
+  }
+  
+  .minmaxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .min,
+  .max {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 4px;
+  }
+  
+  .max {
+    align-items: flex-start;
+    border-left: 2px solid white;
+  }
+  
+  .maxHeading,
+  .minHeading {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .maxTemp,
+  .minTemp {
+    font-size: 0.6em;
+    font-weight: 500;
+    color: rgb(197, 197, 197);
+  }
+  
+  .cardContainer::before {
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: absolute;
+    background-color: rgba(98, 0, 255, 0.904);
+    z-index: -1;
+    border-radius: 50%;
+    left: 100px;
+    top: 50px;
+    transition: all 1s;
+  }
+  
+  .cardContainer:hover::before {
+    transform: translate(-50px, 50px);
+  }
+  </style>
 
 </body>
 
