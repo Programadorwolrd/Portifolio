@@ -19,7 +19,7 @@
 
 
 body {
-    background-color: #202020 ;     
+    background-color: #13131F; ;     
     /* #13131F; */
     line-height: 1.5;
     min-height: 200vh;
@@ -1402,7 +1402,7 @@ footer {
 
 }
 
-
+/* aqui é p probelama do aws */
 .redes-sociais-apresentacao-link p,
 i {
     color: white;
@@ -1427,13 +1427,16 @@ i {
 }
 
 .area-titulo {
+   
+    padding-top: 20px;
     width: 100%;
-    height: 240px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     text-align: left;
+    padding-bottom: 30px;
 }
 
 

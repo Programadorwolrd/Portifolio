@@ -17,8 +17,8 @@
           <img src="img/lelliscode.png" />
         </div>
         <nav class="header-navigation">
-          <a href="#">Home</a>
-          <a href="#">Projetos</a>
+          <a href="index.html">Home</a>
+          <a href="projetos.html">Projetos</a>
           <a href="#">Habilidades</a>
           <a href="certificados.html" class="certificados">Certificados</a>
         </nav>
@@ -42,17 +42,6 @@
 
 
             </svg>
-            <!-- <p class="temp">32°</p>
-          <div class="minmaxContainer">
-            <div class="min">
-              <p class="minHeading">Min</p>
-              <p class="minTemp">30°</p>
-            </div>
-            <div class="max">
-              <p class="maxHeading">Max</p>
-              <p class="maxTemp">32°</p>
-            </div>
-          </div> -->
             <p class="weather">5h | Node | rocketseat.com.br</p>
 
 
@@ -152,7 +141,7 @@
         <div class="card-certificado">
           <p class="city">CERTIFICADO</p>
           <p class="weather">Node.js</p>
-          <svg class="weather" version="1.1" id="Layer_1" x="0px" y="0px" width="200px" height="200px"
+          <svg class="weather" version="1.1" id="Layer_1" x="0px" y="0px" width="300px" height="200px"
             viewBox="0 0 100 100" xml:space="preserve">
             <image id="image0" width="100" height="100" x="0" y="0" href="img/certificados/roket1.JPG"></image>
 
@@ -273,6 +262,9 @@
 
 
         }
+        body{
+    background-image: linear-gradient(to bottom, #62068d4b, #000000,#2b11539d);
+ }
 
 
         .cardContainer {
@@ -313,48 +305,6 @@
           font-weight: 500;
           font-size: 0.7em;
           letter-spacing: 1.2px;
-          color: rgb(197, 197, 197);
-        }
-
-        .temp {
-          font-size: 1.8em;
-          color: white;
-        }
-
-        .minmaxContainer {
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-
-        .min,
-        .max {
-          width: 50%;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-end;
-          justify-content: center;
-          padding: 0px 20px;
-          gap: 4px;
-        }
-
-        .max {
-          align-items: flex-start;
-          border-left: 2px solid white;
-        }
-
-        .maxHeading,
-        .minHeading {
-          font-size: 0.7em;
-          font-weight: 600;
-          color: white;
-        }
-
-        .maxTemp,
-        .minTemp {
-          font-size: 0.6em;
-          font-weight: 500;
           color: rgb(197, 197, 197);
         }
 
