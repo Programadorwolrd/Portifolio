@@ -198,6 +198,7 @@ body {
     font-weight: bolder;
     font-family: 'Rubik', sans-serif;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    
 }
 
 
@@ -207,6 +208,7 @@ body {
     position: absolute;
     margin-left: 140%;
     margin-top: -42%;
+    
 }
 
 .apresetacao {
@@ -777,6 +779,7 @@ footer {
         border: none;
         font-size: medium;
         font-weight: bolder;
+        
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -795,6 +798,7 @@ footer {
         border: none;
         font-size: medium;
         font-weight: bolder;
+        
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -963,6 +967,7 @@ footer {
         background-color: #0D0D0D;
         display: flex;
         justify-content: space-between;
+        
     }
 
 
@@ -1142,6 +1147,7 @@ footer {
         background-color: #0D0D0D;
         display: flex;
         justify-content: space-between;
+        
     }
 
     .box-habilidades-inf {
@@ -1247,16 +1253,7 @@ footer {
 }
 
 
-.apresetacao2 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(255, 0, 0, 0);
-    width: 50%;
-    margin-top: 95px;
-    text-align: center;
 
-}
 
 
 
@@ -1290,6 +1287,7 @@ footer {
     background-color: rgba(255, 0, 0, 0);
     width: 100%;
     height: 400px;
+    
 }
 
 
@@ -1308,6 +1306,7 @@ footer {
     background-size: 200% 100%;
     background-position: 100% 0;
     animation: load89234 2s infinite;
+    
 }
 
 .card_load {
@@ -1316,6 +1315,7 @@ footer {
     float: left;
     background-color: #4D15BE;
     border-radius: 10%;
+    
 
 }
 
@@ -1375,6 +1375,7 @@ footer {
     border-radius: 10px;
     margin-left: 320px;
     margin-top: 39%;
+    
 }
 
 
