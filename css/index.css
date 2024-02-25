@@ -124,10 +124,14 @@ body {
 /* abaixo temos a parte do banner  */
 .imagem-de-fundo {
     width:100% ;
+<<<<<<< HEAD
     height:470px;
     background-color: #0000007e;
 
     
+=======
+    height:570px;
+>>>>>>> 97ae664114969eebbb05a6feefd3010a90a6053a
 }
 
 
