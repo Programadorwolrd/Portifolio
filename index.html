@@ -600,14 +600,144 @@
                         <p class="news-card__excerpt">Lorem Atualmente, meu foco principal é aprender e crescer ipsum
                             dolor sit amet consectetur adipisicing elit. Est
                             pariatur nemo tempore repellat? &hellip;</p>
-                        <a href="#" class="news-card__read-more">Conhecer <i
-                                class="fas fa-long-arrow-alt-right"></i></a>
+
+                        <button id="openModalBtn" href="#" class="news-card__read-more">Conhecer <i
+                                class="fas fa-long-arrow-alt-right"></i></button>
                     </div>
                 </div>
             </div>
+  <!-- Botão para abrir o modal -->
+ 
+  
+  <!-- O Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+    
+      <div class="modal-video">
+        <video width="100%" controls>
+          <source src="img/teste.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+      <div class="modal-text">
+        <span class="close">&times;</span>
+        <h2>Projeto Waterfall</h2>
+        <p>Prepare-se para uma aventura épica com o Bio Ddex, o aplicativo de realidade aumentada que transforma o seu parque favorito em um mundo mágico de descobertas e desafios!</p>
+        <div class="modal-buttons">
+          <button id="btn1">Ver no Navegador</button>
+          <button id="btn2">Vizualizar Github</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-         
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // Pega o modal
+    var modal = document.getElementById("myModal");
+
+    // Pega o botão que abre o modal
+    var btn = document.getElementById("openModalBtn");
+
+    // Pega o elemento <span> que fecha o modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // Quando o usuário clicar no botão, abre o modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // Quando o usuário clicar no <span> (x), fecha o modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // Quando o usuário clicar em qualquer lugar fora do modal, fecha o modal
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+
+
+<style>
+    /* Estilos para o modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      padding-top: 60px;
      
+    }
+
+    .modal-content {
+      background-color: #ffffffdf;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-radius: 2%;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-video {
+      flex: 2;
+      margin-right: 30px;
+    }
+
+    .modal-text {
+      flex: 1.5;
+    }
+
+    .modal-buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    .modal-buttons button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
 
             
             <div class="news-card">
