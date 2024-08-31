@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- <a href="https://www.flaticon.com/br/icones-gratis/css" title="css ícones">Css ícones criados por Pixel perfect - Flaticon</a> -->
     <!-- <a hidden target="_blank" href="https://icons8.com/icon/11572/mysql"></a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
     <title>Philype Lellis</title>
@@ -593,7 +594,7 @@
             </div>
             <div class="news-card">
                 <a href="#" class="news-card__card-link"></a>
-                <img src="img/projeto3.JPG" alt="" class="news-card__image">
+                <img src="img/tester.PNG" alt="" class="news-card__image">
                 <div class="news-card__text-wrapper">
                     <h2 class="news-card__title">Waterfall </h2>
                     <div class="news-card__details-wrapper">
@@ -603,6 +604,10 @@
 
                         <button id="openModalBtn" href="#" class="news-card__read-more">Conhecer <i
                                 class="fas fa-long-arrow-alt-right"></i></button>
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -624,8 +629,9 @@
         <h2>Projeto Waterfall</h2>
         <p>Prepare-se para uma aventura épica com o Bio Ddex, o aplicativo de realidade aumentada que transforma o seu parque favorito em um mundo mágico de descobertas e desafios!</p>
         <div class="modal-buttons">
-          <button id="btn1">Ver no Navegador</button>
-          <button id="btn2">Vizualizar Github</button>
+            
+          <button id="btn1">Vizualizar Github <i class="fab fa-github"></i> </button>
+          <button id="btn2">Ver no Navegador <i class="fas fa-globe"></i> </button>
         </div>
       </div>
     </div>
@@ -703,6 +709,20 @@
       border-radius: 2%;
     }
 
+    #btn1 {
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        border: none;
+    }
+    #btn2{
+        background-color: rgba(83, 4, 98, 0.744);
+        color: white;
+        border-radius: 4px;
+        border: none;
+        
+    }
+
     .close {
       color: #aaa;
       float: right;
@@ -734,7 +754,7 @@
     }
 
     .modal-buttons button {
-      padding: 10px 20px;
+      padding: 10px 10px;
       cursor: pointer;
     }
   </style>
