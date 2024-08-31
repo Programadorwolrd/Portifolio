@@ -19,6 +19,16 @@
 }
 
 
+/* CSS DA RESPOS */
+/* 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+
 body {
     background-color: #13131F;
        background-image: linear-gradient(to bottom, #62068d4b, #000000,#2b11539d);
@@ -222,7 +232,7 @@ span {
 .minha-foto {
     width: 260px;
     height: 350px;
-    position: absolute;
+    position: relative;
     margin-left: 145%;
     margin-top: -35%;
 
